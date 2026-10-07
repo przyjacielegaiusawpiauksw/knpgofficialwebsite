@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koło Naukowe Przyjaciele Gaiusa | Relacja z wydarzenia</title>
+    <link rel="icon" type="image/jpeg" href="logo na insta.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Inter:wght@300;400;500;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="components.js" defer></script>
+</head>
+<body>
+    <img src="gaius.png" alt="Gaius Watermark" class="bg-watermark" onerror="this.style.display='none'">
+    <img src="cezar.png" alt="Cesar Watermark" class="bg-watermark-left" onerror="this.style.display='none'">
+
+    <site-header></site-header>
+
+    <main>
+        <a href="aktualnosci.html" class="btn-download" style="margin-bottom: 2rem;">&larr; Wróć do aktualności</a>
+
+        <article class="card event-single-article">
+            <!-- Zdjęcie główne wpisu -->
+            <div class="event-banner">
+                <img src="grafika-wydarzenie-1.jpg" alt="Zdjęcie główne wydarzenia" onerror="this.src='logo na insta.jpg'">
+            </div>
+
+            <!-- Nagłówek i metadane -->
+            <header class="event-header-box">
+                <span class="badge">Seminarium Naukowe</span>
+                <div class="date">14 listopada 2024 | Kampus Wóycickiego, Aula WPiA UKSW</div>
+                <h2>Instytucje Gaiusa w dobie cyfryzacji – relacja z warsztatów</h2>
+            </header>
+
+            <!-- Treść opisu -->
+            <div class="event-body-text">
+                <p>
+                    W auli Wydziału Prawa i Administracji odbyły się zorganizowane przez Koło warsztaty źródłoznawcze. Uczestnicy analizowali teksty jurysprudencji klasycznej pod kątem podziału dóbr, praw niematerialnych oraz ewolucji pojęć rzeczowych we współczesnym obrocie gospodarczym.
+                </p>
+                <p>
+                    W debacie wzięli udział studenci, doktoranci oraz zaproszeni goście reprezentujący środowisko romanistyczne. Dyskusja skupiła się na recepcji podziału rzeczy (res corporales i res incorporales) w erze aktywów cyfrowych.
+                </p>
+                <p>
+                    Serdecznie dziękujemy wszystkim prelegentom i uczestnikom za merytoryczny wkład i ożywioną wymianę myśli.
+                </p>
+            </div>
+
+            <!-- Galeria zdjęć z wydarzenia -->
+            <section class="event-gallery-section">
+                <h3>Galeria zdjęć</h3>
+                <div class="event-gallery-grid">
+                    <div class="gallery-item">
+                        <img src="wydarzenie/galeria-1.jpg" alt="Zdjęcie z wydarzenia 1" onerror="this.src='logo na insta.jpg'">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wydarzenie/galeria-2.jpg" alt="Zdjęcie z wydarzenia 2" onerror="this.src='logo na insta.jpg'">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="wydarzenie/galeria-3.jpg" alt="Zdjęcie z wydarzenia 3" onerror="this.src='logo na insta.jpg'">
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <site-footer></site-footer>
+</body>
+</html>
